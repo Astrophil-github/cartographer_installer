@@ -31,7 +31,7 @@ set -o errexit
 set -o verbose
 
 cd abseil-cpp
-git checkout d902eb869bcfacc1bad14933ed9af4bed006d481
+# git checkout d902eb869bcfacc1bad14933ed9af4bed006d481
 mkdir build
 cd build
 cmake -G Ninja \
