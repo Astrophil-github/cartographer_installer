@@ -78,4 +78,6 @@ ninja
 #CTEST_OUTPUT_ON_FAILURE=1 ninja test
 sudo ninja install
 
-
+# Build Cartographer_ws
+cd ../../cartographer_detailed_comments_ws
+./catkin_make.sh
