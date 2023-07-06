@@ -70,7 +70,7 @@ sudo ninja install
 
 
 # Build and install Cartographer.
-cd ../../cartographer_ws
+cd ../../cartographer
 mkdir build
 cd build
 cmake .. -G Ninja
