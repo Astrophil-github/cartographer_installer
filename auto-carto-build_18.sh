@@ -80,4 +80,5 @@ sudo ninja install
 
 # Build Cartographer_ws
 cd ../../cartographer_detailed_comments_ws
+sudo chmod +x catkin_make.sh
 ./catkin_make.sh
