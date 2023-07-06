@@ -11,11 +11,11 @@
     # 适用于ubuntu18及以上版本
     ./auto-carto-build_18.sh
 
-# 后续编译
+# 测试
 
-需要再下载一个cartographer的工作空间
+    # 下载 2D backpack example bag.
+    wget -P ~/Downloads https://storage.googleapis.com/cartographer-public-data/bags/backpack_2d/cartographer_paper_deutsches_museum.bag
 
-    cd
-    git clone https://github.com/xiangli0608/cartographer_detailed_comments_ws
-    cd cartographer_detailed_comments_ws
-    ./catkin_make.sh
+
+    # 运行 Launch the 2D backpack demo.
+    roslaunch cartographer_ros demo_backpack_2d.launch bag_filename:=${HOME}/Downloads/cartographer_paper_deutsches_museum.bag
